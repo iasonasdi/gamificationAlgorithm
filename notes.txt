@@ -1,0 +1,144 @@
+Certainly! Let's include your algorithm alongside TryHackMe and Hack The Box (HTB) in the table for a more comprehensive comparison:
+Scoring Algorithm Features	Hack The Box (HTB)	TryHackMe	Your Algorithm	Capture The Flag (CTF) Competitions	Cyber Range Platforms	Online Learning Platforms	Cybersecurity Certification Exams
+Flag-based Scoring	 Yes Yes	Yes	Yes	No	No	No
+Time-based Scoring	Yes	Yes	Yes	Yes	Yes	Yes	No
+Penalty-based Scoring	No	Yes	Yes	Yes	Yes	No	Yes
+Objective-based Scoring	Yes	Yes	Yes	Yes	Yes	Yes	Yes
+Progress-based Scoring	No	Yes	No	No	No	Yes	No
+Adaptive Scoring	No	No	No	No	No	No	No
+Peer-based Scoring	No	Yes	No	Yes	No	No	No
+Gamification Scoring	No	Yes	No	No	No	Yes	No
+Feedback-driven Scoring	No	Yes	No	Yes	Yes	Yes	Yes
+Hybrid Scoring	No	Yes	No	Yes	Yes	Yes	Yes
+
+
+***Metrics
+1.Time-based Scoring
+2.Flag-based Scoring
+3.Objective-based Scoring
+4.Accuracy-based Scoring
+5.Penalty-based Scoring
+6.Progress-based Scoring
+7.Dynamic Scoring
+8.Adaptive Scoring
+9.Feedback-driven Scoring
+10.Peer-based Scoring
+11.Accuracy-based Scoring
+
+
+*Training
+1. DL As is
+*Competition
+1. DL to be accumulated based on how many solved it (if all solve it then it is easy)
+2. Decay factor
+
+
+*Events
+Cyber Ranges
+CTF
+Learning Platforms (i.e. Certification Training Platforms & Interactive Learning Platforms)
+Training Platforms (i.e. HTB)
+
+*******
+Certification Training Platforms: These platforms offer courses and study materials to help individuals prepare for cybersecurity certifications such as CompTIA Security+, CEH (Certified Ethical Hacker), CISSP (Certified Information Systems Security Professional), and others. They typically provide comprehensive coverage of exam topics, practice tests, and study resources to support certification preparation.
+
+Interactive Learning Platforms: Interactive learning platforms provide engaging and interactive content such as videos, quizzes, simulations, and virtual labs to facilitate learning and skill development. These platforms often cater to different learning styles and skill levels, offering personalized learning paths and adaptive learning experiences.
+
+Online Courses and MOOCs: Massive Open Online Courses (MOOCs) and online course platforms offer cybersecurity courses taught by industry experts and academics. These courses cover a wide range of topics and may include lectures, assignments, quizzes, and forums for discussion and collaboration.
+
+
+
+********************
+RESULTS
+*******************
+
+Here's the table indicating whether each of the listed scoring metrics is supported by the different categories of training platforms:
+
+| Scoring Metrics       | Cyber Ranges | Capture The Flag (CTF) | Learning Platforms | Training Platforms |
+|-----------------------|--------------|------------------------|--------------------|--------------------|
+| Time-based Scoring    | Yes          | Yes                    | No                 | Yes                |
+| Flag-based Scoring    | No           | Yes                    | No                 | No                 |
+| Objective-based Scoring | Yes       | Yes                    | Yes                | Yes                |
+| Accuracy-based Scoring | No         | No                     | Yes                | No                 |
+| Penalty-based Scoring | No          | No                     | No                 | No                 |
+| Progress-based Scoring | No         | No                     | Yes                | Yes                |
+| Dynamic Scoring       | No           | No                     | No                 | No                 |
+| Adaptive Scoring      | No           | No                     | No                 | No                 |
+| Feedback-driven Scoring | No         | No                     | Yes                | No                 |
+
+This table provides a simplified view indicating whether each scoring metric is supported by the different categories of training platforms, with "Yes" indicating the metric is supported and "No" indicating it is not.
+
+
+
+*********
+RESULT 2
+**********
+Here's the updated table including the provided algorithm and indicating which metrics it supports:
+
+Scoring Metrics	Cyber Ranges	Capture The Flag (CTF)	Learning Platforms	Training Platforms	GameAlgorithm
+Time-based Scoring	Yes	Yes	No	Yes	Yes
+Flag-based Scoring	No	Yes	No	No	No
+Objective-based Scoring	Yes	Yes	Yes	Yes	Yes
+Accuracy-based Scoring	No	No	Yes	No	No
+Penalty-based Scoring	No	No	No	No	Yes (Penalty only)
+Progress-based Scoring	No	No	Yes	Yes	No
+Dynamic Scoring	No	No	No	No	No
+Adaptive Scoring	No	No	No	No	No
+Feedback-driven Scoring	No	No	Yes	No	No
+The "GameAlgorithm" column indicates whether the provided algorithm supports each of the scoring metrics. It supports Time-based, Objective-based, and Penalty-based scoring.
+
+
+THOUGHTS:::
+We have 2 tables:
+1. Is the above (Result 2) that shows what is normally used in training platforms compared to what OUR ALGORITHM supports
+2. Table to show in each flavour of our algorithm what metrics are supported and how (describe metrics)
+
+
+The metrics (9,10) could be done via Game Maker and 11 (acuracy) -->QUIZ by setting wweightR=1 and all other to 0 (we care only for result)
+
+
+***RESULT 3 -- 11 metrics
+Here's the table reproduced with the provided scoring metrics:
+
+| Scoring Metrics         | Cyber Ranges | Capture The Flag (CTF) | Learning Platforms | Training Platforms | GameAlgorithm |
+|-------------------------|--------------|------------------------|--------------------|--------------------|---------------|
+| 1. Time-based Scoring   | Yes          | Yes                    | No                 | Yes                | Yes           |
+| 2. Flag-based Scoring   | No           | Yes                    | No                 | No                 | No            |
+| 3. Objective-based Scoring | Yes       | Yes                    | Yes                | Yes                | Yes           |
+| 4. Accuracy-based Scoring | No         | No                     | Yes                | No                 | No            |
+| 5. Penalty-based Scoring | No          | No                     | No                 | No                 | Yes (Penalty only) |
+| 6. Progress-based Scoring | No         | No                     | Yes                | Yes                | No            |
+| 7. Dynamic Scoring      | No           | No                     | No                 | No                 | No            |
+| 8. Adaptive Scoring     | No           | No                     | No                 | No                 | No            |
+| 9. Feedback-driven Scoring | No         | No                     | Yes                | No                 | No            |
+| 10. Peer-based Scoring  | No          | No                     | No                 | No                 | No            |
+| 11. Accuracy-based Scoring | No       | No                     | Yes                | No                 | No            |
+
+This table reflects the support for each scoring metric in the specified training platforms and includes the provided GameAlgorithm, indicating its support for each metric.
+
+
+
+***IDEA
+-->Learning
+-->Cyber Ranges
+Keep algorithm same 
+-->Training
+Add game Maker capabilities
+1. Retire (substract points when machine goes down)
+2. First blood bonus
+-->CTF
+Algorithm add
+1. Decay
+2. DL change based on solvers (dynamic) --existing python. It is not in levels
+
+Algorithm adjust:
+Ignore all optimal
+chack only solved non solved
+
+
+
+
+*OVERLEAF: kill current example. Add one with the CTF
+
+
+
